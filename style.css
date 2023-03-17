@@ -18,7 +18,7 @@
     color: white;
     font-size: 5.5vw;
     position: absolute;
-    left: 35.5%;
+    left: 36%;
     transform: translateX(-50%);
 }
 
@@ -67,7 +67,7 @@
     position: absolute;
     bottom: 66%;
     border-radius: 100vw;
-    animation: rotate-blob 90s linear infinite, fade-blob 4.5s ease;
+    animation: rotate-blob 90s linear infinite, fade-blob 3.9s ease;
     filter: blur(150px);
 }
 
@@ -102,5 +102,8 @@
         height: 350px;
         bottom: 75%;
         filter: blur(120px)
+    }
+    .wrapper h1 {
+        left: 33%;
     }
 }
