@@ -67,9 +67,8 @@
     position: absolute;
     bottom: 66%;
     border-radius: 100vw;
-    animation: rotate-blob 90s linear infinite;
+    animation: rotate-blob 90s linear infinite, fade-blob 3.9s ease;
     filter: blur(150px);
-    transition: 5s;
 }
 
 
@@ -80,6 +79,12 @@
     to {
         transform: rotateZ(360deg);
     }
+}
+
+@keyframes fade-blob {
+    0% {opacity: 0}
+    50% {opacity: 0}
+    100% {opacity: 100}
 }
 
 
